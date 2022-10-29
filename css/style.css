@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+color: white;
+max-width: 12000px;
+margin: 0 auto;
+padding: 15px;
+} 
+
+header {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li {
+    display: inline-block;
+    color: white;
+    margin: 20px;
+}
