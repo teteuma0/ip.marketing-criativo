@@ -79,6 +79,13 @@ img{
 
 }
 
+form{
+    display: flex;
+flex-direction: column;
+
+}
+
+
 form [type=submit]{
     height: 50px;
     width: 50%;
@@ -101,4 +108,8 @@ border-radius: 20px;
 border:none;
 font-size: 15px;
 display: block;
+}
+
+* {
+    font-family: 'Oswald', sans-serif;
 }
